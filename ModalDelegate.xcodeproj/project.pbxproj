@@ -54,14 +54,54 @@
 		6817B053207D46660052E48D /* ModalDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				6817B054207D46660052E48D /* AppDelegate.swift */,
-				6817B056207D46660052E48D /* ViewController.swift */,
-				6817B058207D46660052E48D /* Main.storyboard */,
-				6817B05B207D466A0052E48D /* Assets.xcassets */,
-				6817B05D207D466A0052E48D /* LaunchScreen.storyboard */,
+				6817B067207D469C0052E48D /* Resources */,
+				6817B066207D468A0052E48D /* Classes */,
 				6817B060207D466A0052E48D /* Info.plist */,
 			);
 			path = ModalDelegate;
+			sourceTree = "<group>";
+		};
+		6817B066207D468A0052E48D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6817B054207D46660052E48D /* AppDelegate.swift */,
+				6817B06A207D46C50052E48D /* Models */,
+				6817B069207D46BD0052E48D /* Views */,
+				6817B068207D46B40052E48D /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6817B067207D469C0052E48D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6817B05B207D466A0052E48D /* Assets.xcassets */,
+				6817B05D207D466A0052E48D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6817B068207D46B40052E48D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6817B056207D46660052E48D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6817B069207D46BD0052E48D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6817B058207D46660052E48D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6817B06A207D46C50052E48D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -283,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = ModalDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mstk.ModalDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = ModalDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mstk.ModalDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
